@@ -1,7 +1,5 @@
 """ content of test_sample.py#"""
 
-""" This is the increment function"""
-
 
 def inc(x_value):
     """ Increment Function adds one to the x_value"""
@@ -31,10 +29,11 @@ class Calculator:
         """ Multiply numbers"""
         self.result = self.result * value_a
         return self.result
+
     def divide_number(self, value_a):
         """ Dividing Numbers """
         try:
             self.result = self.result / value_a
-            return self.result
         except ZeroDivisionError:
             print("Divison error by 0")
+        return self.result
