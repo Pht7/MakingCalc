@@ -12,4 +12,3 @@ ENV PATH="/home/myuser/.local/bin:${PATH}"
 COPY --chown=myuser:myuser . .
 USER myuser
 RUN pip install --user -r requirements.txt
-RUN python main.py

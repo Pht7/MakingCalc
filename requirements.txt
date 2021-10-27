@@ -1,3 +1,4 @@
 pytest
 pycodestyle
 pytest-pylint
+pytest-cov
